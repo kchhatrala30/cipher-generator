@@ -8,3 +8,5 @@ Notes:
 <li>Jason cipher strings must be a single word
 
 Secure your messages to no end, but make sure you can still understand them!
+
+This project originally began as a lab assignment for a class.
