@@ -18,13 +18,14 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner scnr = new Scanner(System.in);
-        System.out.println("Would you like to encrypt or decrypt your text?");
-        System.out.print("Enter \"E\" for encryption and \"D\" for decryption: ");
-        String choice = scnr.nextLine();
         
         int userSelection = 0;
         while (userSelection != -1)
         {
+            System.out.println("Would you like to encrypt or decrypt your text?");
+            System.out.print("Enter \"E\" for encryption and \"D\" for decryption: ");
+            String choice = scnr.nextLine();
+            
             System.out.println();
             if (choice.equals("E"))
             {
@@ -94,6 +95,7 @@ public class Main {
             System.out.print("Enter -1 to exit, or 1 to continue: ");
             userSelection = scnr.nextInt();
             scnr.nextLine();
+            System.out.println();
         }
     }
 }
